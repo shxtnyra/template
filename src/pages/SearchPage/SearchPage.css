@@ -1,0 +1,89 @@
+.search-results {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-results h1 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.top-results {
+  margin-bottom: 40px;
+}
+
+.results-tabs {
+  display: flex;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.results-tabs button {
+  padding: 8px 16px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.results-tabs button.active {
+  border-bottom-color: #d51007;
+  color: #d51007;
+}
+
+.articles-section,
+.albums-section,
+.tracks-section {
+  margin-bottom: 40px;
+}
+
+.articles-section h2,
+.albums-section h2,
+.tracks-section h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.articles-list {
+  list-style: none;
+}
+
+.articles-list li {
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.articles-list li h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.articles-list li p {
+  font-size: 14px;
+  color: #666;
+}
+
+.albums-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+  list-style: none;
+}
+
+.see-more {
+  display: block;
+  text-align: right;
+  margin-top: 15px;
+  color: #d51007;
+  font-size: 14px;
+}
+
+.see-more:hover {
+  text-decoration: underline;
+}

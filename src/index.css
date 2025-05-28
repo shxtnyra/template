@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Barlow,Open Sans,Lucida Grande,Helvetica Neue,Helvetica,Arial,Sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .main-nav {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .search-bar {
+        margin: 1rem 0;
+    }
+    
+    .user-menu {
+        margin-top: 1rem;
+    }
+    
+    .artists-grid, .tracks-list {
+        grid-template-columns: 1fr;
+    }
+}
