@@ -1,0 +1,30 @@
+.track-item {
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    gap: 8px;
+}
+
+.track-cover {
+    width: 64px;
+    height: 64px;
+    border-radius: 6px;
+    object-fit: cover;
+    background: #eee;
+}
+
+.track-item .title a{
+    font-size: 14px;
+    font-weight: 700;
+    color: #222;
+}
+
+.track-item .artist a {
+    font-size: 14px;
+    color: #222;
+}
+
+.track-item .tags a{
+    font-size: 12px;
+    color: #999;
+}
